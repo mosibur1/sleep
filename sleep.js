@@ -829,7 +829,7 @@ async function wait(seconds) {
 }
 
 async function main() {
-  console.log(colors.yellow("Tool được phát triển bởi nhóm tele Airdrop Hunter Siêu Tốc (https://t.me/airdrophuntersieutoc)"));
+  console.log(colors.yellow("Join Telegram Channel (https://t.me/mrptechofficial)"));
 
   const { endpoint: hasIDAPI, message } = await checkBaseUrl();
   if (!hasIDAPI) return console.log(`Không thể tìm thấy ID API, thử lại sau!`.red);
